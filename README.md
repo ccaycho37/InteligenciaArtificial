@@ -9,7 +9,7 @@ La base de datos que se usará para la elaboración de este cuaderno fue tomado 
 <a href="https://www.kaggle.com/vjchoudhary7/customer-segmentation-tutorial-in-python">Dataset</a>
 
 ### Dataset
-<img src="https://github.com/PabloJRW/segmentacion_de_clientes/blob/main/img/data.png"/>
+<img src="https://github.com/ccaycho37/InteligenciaArtificial/blob/main/img/data.png"/>
 
 Para esta tarea contamos con un conjunto de datos de 5 variables.
 >>>><li> <b>CustomerID:</b> identificador único de los clientes.
@@ -20,13 +20,13 @@ Para esta tarea contamos con un conjunto de datos de 5 variables.
     
 K-Means encuentra clústers basándose en la distancia, por lo que es importante que sólo utilizemos variables numéricas. También, excluiremos la variable <b>"CustomerID"</b>, debido que sólo es un identificador que no nos aportará información. Nos quedamos con 3 variables.
 #### Distribución original:
-<img src="https://github.com/PabloJRW/segmentacion_de_clientes/blob/main/img/distributions.png"/>
+<img src="https://github.com/ccaycho37/InteligenciaArtificial/blob/main/img/distributions.png"/>
 A estas variables le aplicamos un método de normalización. 
     
 ### Elegir K (Cantidad de clusters)
 Cuando no tenemos una cantidad de segmentos en la que queramos clasificar nuestros datos, o queramos descubrir cuántos grupos similares tenemos en nuestros datos, el método de codo es el apropiado para ayudarnos a tomar esa decisión.
     
-<img src="https://github.com/PabloJRW/segmentacion_de_clientes/blob/main/img/elbow_viz.png"/>
+<img src="https://github.com/ccaycho37/InteligenciaArtificial/blob/main/img/elbow_viz.png"/>
 Mediante el método de codo podemos observar que entre nuestros datos existen entre 4 y 6 segmentos de clientes bien definidos. Este es un punto donde entra el criterio experto para tomar la decisión de cuántos segmentos debemos establecer. El método de codo nos sugiere 4 clusters.
     
 #### Visualización de los 4 clusters
